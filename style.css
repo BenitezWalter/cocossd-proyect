@@ -1,0 +1,34 @@
+.classifyOnClick {
+  margin: 0 auto;
+  cursor: pointer;
+  width: 700px;
+  height: 700px;
+  position: relative;
+}
+.videoView p,
+.classifyOnClick p {
+  position: absolute;
+  padding: 5px;
+  background-color: rgba(255, 111, 0, 0.85);
+  color: #fff;
+  border: 1px dashed black;
+  z-index: 2;
+  font-size: 5px;
+  margin-left: 10px;
+}
+
+.highlighter {
+  background: rgba(0, 255, 0, 0.25);
+  border: 1px dashed black;
+  z-index: 1;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.classifyOnClick {
+  z-index: 0;
+}
+video {
+  clear: both;
+  display: block;
+}
